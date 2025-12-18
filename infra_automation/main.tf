@@ -58,7 +58,7 @@ module "frontend_vm" {
   nic_name = "pawarnic"
  # ye subnet upar bna hai ....hardcode kyu karna hai 
   subnet_id = ""
-  public_ip_address_id = ""
+  public_ip_address_id = "" # portal pr ja kr public id mein se json view se lana hoga 
   
 }
 
