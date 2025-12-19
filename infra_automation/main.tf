@@ -57,7 +57,7 @@ module "frontend_vm" {
   admin_password = "devopsadmin@12345"
   nic_name = "pawarnic"
  # ye subnet upar bna hai ....hardcode kyu karna hai 
-  subnet_id = ""
+  subnet_id = "" # ab yaha data block ka use krnge taki values yaha pr apne app ahh zae same public ip k liye bhi krnge 
   public_ip_address_id = "" # portal pr ja kr public id mein se json view se lana hoga 
   
 }
